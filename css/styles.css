@@ -1,0 +1,472 @@
+/*  CSS Styles for the Explore Japan Site, by Daniel Kasai  */
+
+
+/*  GLOBAL STYLES  */
+
+.container {
+    max-width: 1200px;
+    margin-top: 35px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container h1 {
+    font-weight: 900;
+    color: #22687F;
+    padding: 36px 58px 70px 50px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 2.7rem;
+}
+
+aside {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+section {
+    margin-top: 25px;
+}
+
+section img {
+    margin-top: 20px;
+}
+
+
+/*  HEADER  */
+
+header {
+    padding: 20px 30px;
+    -webkit-box-shadow: inset 10px 4px 30px 13px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: inset 10px 4px 30px 13px rgba(0, 0, 0, 0.11);
+    box-shadow: inset 10px 4px 30px 13px rgba(0, 0, 0, 0.11);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 span:first-child {
+    letter-spacing: 5px;
+    line-height: 20px;
+    color: #22687F;
+}
+
+header h1 span:last-child {
+    font-size: 7rem;
+    letter-spacing: 8px;
+    line-height: 20px;
+    color: black;
+}
+
+header h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    margin: 6px 0px 5px 3px;
+}
+
+header h2 {
+    display: none;
+}
+
+
+/*  HEADER - Larger than mobile  */
+
+@media (min-width: 550px) {
+    header {
+        padding: 2px 203px;
+        background-image: url("../img/SeeMoreJapan Logo-01.png"), url("../img/Matsu_Pattern-01.png");
+        background-repeat: no-repeat;
+        background-position: left, right;
+    }
+    header h2 {
+        display: inline-block;
+        font-size: 2.3rem;
+        margin: 11px 0px 8px -22px;
+        font-family: 'Nothing You Could Do', cursive;
+        font-weight: bold;
+        color: black;
+    }
+}
+
+
+/*  FOOTER  */
+
+footer {
+    background-color: #22687F;
+    color: white;
+    padding: 40px 50px 80px 40px;
+    margin-top: 100px;
+}
+
+
+/*  
+    NAVIGATION
+    technique as described in https://www.lynda.com/CSS-tutorials/Welcome/424044/434370-4.html
+    by Chris Converse
+*/
+
+nav.main {
+    background: #AF0000;
+}
+
+nav.main a {
+    color: rgba(255, 255, 255, .8);
+}
+
+nav.main a:visited {
+    color: rgba(255, 255, 255, .6);
+}
+
+nav.main a:hover {
+    color: rgba(255, 255, 255, .5);
+}
+
+nav.main a:active {
+    color: rgb(255, 255, 255);
+}
+
+nav.main ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* NAVIGATION - Larger than phablet (also point when grid becomes active) */
+
+@media (min-width: 550px) {
+    nav.main {
+        background: linear-gradient(to bottom, #FF0000, #FF0000 25%, #AF0000 25%);
+        position: relative;
+    }
+    nav.main ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav.main li {
+        margin-bottom: 0;
+    }
+    nav.main>ul>li {
+        float: right;
+        background-image: url("../img/navigation_arrow-01.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    nav.main>ul>li:hover {
+        background-image: none;
+    }
+    nav ul::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    nav.main ul li:hover {
+        background-color: #490000;
+    }
+    nav.main ul li:hover>ul {
+        display: block;
+    }
+    nav.main ul li a {
+        display: inline-block;
+        width: 150px;
+        padding: 20px 20px 15px 28px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, .7);
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+        font-weight: 600;
+    }
+    nav.main ul li a:visited {
+        background-color: #490000;
+    }
+    nav.main ul li a:hover {
+        background-color: #6F1111;
+    }
+    nav.main ul li a:active {
+        background-color: #290000;
+    }
+    nav.main ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        z-index: 3;
+        background-color: rgba(175, 0, 0, .8);
+    }
+}
+
+
+/*  Bar below navigation, to show current site  */
+
+nav.orientation {
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    height: 35px;
+    background-color: #22687F;
+    color: white;
+}
+
+
+/*  INTERNAL NAVGIATION - styles for internal navigation for pages with several sections  */
+
+nav.internal_navigation {
+    display: none;
+}
+
+@media (min-width: 550px) {
+    nav.internal_navigation {
+        display: block;
+        width: 300px;
+        background-color: #22687F;
+        padding: 15px;
+    }
+    nav.stick {
+        position: fixed;
+        top: 0;
+        z-index: 10000;
+        margin-top: 12px;
+    }
+    nav.internal_navigation ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav.internal_navigation li {}
+    nav.internal_navigation li a {
+        color: rgba(255, 255, 255, .8);
+        font-weight: 400;
+    }
+    nav.internal_navigation li a:hover {
+        color: rgba(255, 255, 255, .5);
+        font-weight: 400;
+    }
+    nav.internal_navigation li a:active {
+        color: white;
+        font-weight: 400;
+    }
+    nav.internal_navigation a.scroll-active {
+        color: rgba(255, 190, 93, .8);
+    }
+}
+
+
+/*  HOMEPAGE - Content Slider  */
+
+#slider {
+    display: none;
+}
+
+@media (min-width: 750px) {
+    #slider {
+        display: block;
+    }
+    #slider ul {
+        list-style: none;
+        display: inline-block;
+        margin-left: 0px;
+    }
+    #slider ul li {
+        position: relative;
+        float: left;
+    }
+    #left {
+        position: absolute;
+        z-index: 2;
+        top: 75px;
+        left: 20px;
+    }
+    #right {
+        position: absolute;
+        z-index: 2;
+        top: 75px;
+        right: 20px;
+    }
+    #slider {
+        background-color: #0FA0CE;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+    }
+    #slider p,
+    #slider h1 {
+        position: absolute;
+        z-index: 1;
+        background-color: #22687F;
+        color: white;
+        padding: 7px 24px;
+        left: 220px;
+    }
+    #slider h1 {
+        top: 50px;
+        font-size: 4rem;
+    }
+    #slider p {
+        top: 120px;
+    }
+}
+
+
+/*  HOMEPAGE - Panels for direct access to areas of the site (background topics: Language, Religion, History, Pop Culture)  */
+
+.homepage_panel {
+    height: 300px;
+    margin: 5px 10px;
+    padding: 30px 50px 40px 30px;
+}
+
+.homepage_panel h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.3rem;
+    color: rgb(255, 190, 93);
+    letter-spacing: 3px;
+}
+
+.homepage_panel p {
+    margin-top: 30px;
+    color: rgb(255, 190, 93);
+}
+
+#panel_language {
+    background-image: linear-gradient(to right, rgba(18, 82, 103, 1) 40%, rgba(18, 82, 103, 0)), url("../img/japaneseKanjis.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #22687F;
+}
+
+#panel_religion {
+    background-image: linear-gradient(to right, rgba(18, 82, 103, 1) 40%, rgba(18, 82, 103, 0)), url("../img/ReligionBuddha.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #22687F;
+}
+
+#panel_history {
+    background-image: linear-gradient(to right, rgba(18, 82, 103, 1) 45%, rgba(18, 82, 103, 0)), url("../img/SamuraiStatue.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 15%;
+}
+
+#panel_pop {
+    background-image: linear-gradient(to right, rgba(18, 82, 103, 1) 23%, rgba(18, 82, 103, 0)), url("../img/PopCulture.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #22687F;
+}
+
+
+/*  HOMEPAGE - next to panels: right side (direct access to basic information & locations)  */
+
+.right_panel {
+    display: none;
+}
+
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+    .right_panel {
+        display: block;
+        background-color: rgb(255, 190, 93);
+        padding: 30px 20px 40px 30px;
+        width: 100%;
+        color: rgb(18, 82, 103);
+    }
+    .right_panel ul {
+        list-style: none;
+    }
+    .right_panel a {
+        color: rgb(18, 82, 103);
+    }
+    .right_panel a:visited {
+        color: rgb(4, 62, 81);
+    }
+    .right_panel a:hover {
+        color: rgb(60, 122, 142);
+    }
+    .right_panel a:active {
+        color: rgb(1, 41, 54);
+    }
+    .right_panel>ul {
+        font-size: 2rem;
+    }
+    .right_panel>ul>li>ul {
+        font-size: 1.6rem;
+    }
+    .right_panel>ul>li>ul>li>ul>li {
+        font-size: 1.2rem;
+    }
+}
+
+
+/*  Cultural Background Page  */
+
+#H1culturalbackground {
+    background-image: linear-gradient(to right, rgba(34, 104, 127, 1) 60%, rgba(34, 104, 127, 0)), url("../img/H1_bgimage_cultural.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+}
+
+#H1landscapes {
+    background-image: linear-gradient(to right, rgba(227, 185, 87, 1) 50%, rgba(227, 185, 87, 0)), url("../img/H1_bgimage_landscape.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #22687F;
+}
+
+#buddhism p {
+    background-image: url("../img/buddha_head_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#shingon .four.columns {
+    overflow: hidden;
+}
+
+
+/*  PRINT Styles - deactivation of useless areas for printing  */
+
+@media print {
+    header {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    #slider {
+        display: none;
+    }
+    .right_panel {
+        display: none;
+    }
+    #shingon .four img {
+        display: none;
+    }
+}
