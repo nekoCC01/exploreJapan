@@ -55,7 +55,7 @@
                     <p>Learn more about the Japanese Language, its writing systems, as well as some useful phrases for the traveler.</p>
                 </div>
                 </a>
-                <a href="./exploreJapan/cultural_background_religion.php">
+                <a href="./cultural_background_religion.php">
                 <div class="six columns homepage_panel" id="panel_religion">
                     <h1>Religion</h1>
                     <p>For those interested in the religious background of Japan, mainly Shintoism and Buddhism.</p>

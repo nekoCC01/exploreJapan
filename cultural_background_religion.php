@@ -80,7 +80,7 @@
                     <img src="/img/Kongokai_81son_mandala_stripe.jpg" alt="buddhist mandala, photography provieded by Wikipedia Commons: https://commons.wikimedia.org/wiki/File:Kongokai_81son_mandala.jpg"/>
                     <h3>Important Sites</h3>
                     <ul>
-                        <li><a href="./exploreJapan/locations_landscapes.php#shikoku" title="Link to section about the Shikoku islands on this site">Shikoku islands</a></li>
+                        <li><a href="./locations_landscapes.php#shikoku" title="Link to section about the Shikoku islands on this site">Shikoku islands</a></li>
                         <li>Koya-San</li>
                         <li>Daigoji-temple in Kyoto</li>
                     </ul>

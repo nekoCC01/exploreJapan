@@ -28,7 +28,7 @@
                         about the same regions as today´s prefectures. The landscape consists of high mountains,
                         steep slopes and a rough coastline, which didn´t make it suitable for intense agriculture.
                         <br/> This is one of the reasons it became popular as a place for the practice of mountain asceticism
-                        and is today closely linked to <a href="./exploreJapan/cultural_background_religion.php#shingon" title="more information on Shingon Buddhism on this site">Shingon Buddhism</a>.
+                        and is today closely linked to <a href="./cultural_background_religion.php#shingon" title="more information on Shingon Buddhism on this site">Shingon Buddhism</a>.
                     </p>
 
 
@@ -37,7 +37,7 @@
                         The Shikoku Pilgrimage (四国遍路 Shikoku "Henro") has regained increased popularity in recent times
                         and can be compared to the pilgrimage of Santiago the Compostella.
                         The tradition of pilgrimage exists since the Heian period (794-1185) and in case of the "Henro" route in Shikoku
-                        it was established by the <a href="./exploreJapan/cultural_background_religion.php#kukai" title="link to some background information about Kukai on this site">monk Kukai</a>.<br/>
+                        it was established by the <a href="./cultural_background_religion.php#kukai" title="link to some background information about Kukai on this site">monk Kukai</a>.<br/>
                         The whole route encompasses 88 temples distributed among the Shikoku islands.
                         In general there are two ways to carry out the pilgrimage: either one travels from temple to temple
                         by car or train or on focuses on the route itself, traveling by foot.
