@@ -47,7 +47,7 @@
                     </p>
                     <aside>The following picture is just meant to give a glimpse of the wide-ranging ways in which Buddhism
                         spread throughout Asia and finally also reached Japan</aside>
-                    <img src="/projects/exploreJapan/img/buddhism_map.png" alt="illustration of the spread of buddhism in asia"/>
+                    <img src="/img/buddhism_map.png" alt="illustration of the spread of buddhism in asia"/>
                     <small>illustration of the author, based on <a href="https://en.wikipedia.org/wiki/History_of_Buddhism#mediaviewer/File:Buddhist_Expansion.svg">https://en.wikipedia.org/wiki/History_of_Buddhism#mediaviewer/File:Buddhist_Expansion.svg</a></small>
                 </section>
                 <section id="buddhism">
@@ -77,7 +77,7 @@
                 <section id="shingon">
                     <h2>Shingon-Buddhism</h2>
 
-                    <img src="/projects/exploreJapan/img/Kongokai_81son_mandala_stripe.jpg" alt="buddhist mandala, photography provieded by Wikipedia Commons: https://commons.wikimedia.org/wiki/File:Kongokai_81son_mandala.jpg"/>
+                    <img src="/img/Kongokai_81son_mandala_stripe.jpg" alt="buddhist mandala, photography provieded by Wikipedia Commons: https://commons.wikimedia.org/wiki/File:Kongokai_81son_mandala.jpg"/>
                     <h3>Important Sites</h3>
                     <ul>
                         <li><a href="./exploreJapan/locations_landscapes.php#shikoku" title="Link to section about the Shikoku islands on this site">Shikoku islands</a></li>
@@ -109,7 +109,7 @@
                                 as a religious leader, a scholar and a statesmen, he gained a legendary status among the Japanese.</p>
                         </div>
                         <div class="four columns">
-                            <img src="/projects/exploreJapan/img/Kukai_sitting_statue_stripe.jpg" alt="image of Kukai, provided by Wikipedia (https://commons.wikimedia.org/wiki/File:Kukai_sitting_statue.jpg)"/>
+                            <img src="/img/Kukai_sitting_statue_stripe.jpg" alt="image of Kukai, provided by Wikipedia (https://commons.wikimedia.org/wiki/File:Kukai_sitting_statue.jpg)"/>
                         </div>
 
 
@@ -157,8 +157,8 @@
 
 
     </div>
-    <script type="text/javascript" src="/projects/exploreJapan/js/internal_navigation.js"></script>
-    <script type="text/javascript" src="/projects/exploreJapan/js/functions.js"></script>
+    <script type="text/javascript" src="/js/internal_navigation.js"></script>
+    <script type="text/javascript" src="/js/functions.js"></script>
     <script type="text/javascript">
 
 

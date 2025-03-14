@@ -4,9 +4,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" type="text/css" href="/projects/exploreJapan/css/normalize.css">
-<link rel="stylesheet" type="text/css" href="/projects/exploreJapan/css/skeleton.css">
-<link rel="stylesheet" type="text/css" href="/projects/exploreJapan/css/styles.css">
+<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="/css/skeleton.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
 <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
 

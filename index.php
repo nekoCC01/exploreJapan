@@ -13,28 +13,28 @@
 <?php include ('includes/navigation.php'); ?>
 <nav class="orientation">Homepage</nav>
 <div id="slider" class="u-full-width">
-    <img id="left" src="/projects/exploreJapan/img/slider_nav_left.png" alt="left-arrow-slider"/>
-    <img id="right" src="/projects/exploreJapan/img/slider_nav_right.png" alt="right-arrow-slider"/>
+    <img id="left" src="/img/slider_nav_left.png" alt="left-arrow-slider"/>
+    <img id="right" src="/img/slider_nav_right.png" alt="right-arrow-slider"/>
     <ul>
         <li>
-            <a href="/projects/exploreJapan/cultural_background_religion.php#shingon">
+            <a href="/cultural_background_religion.php#shingon">
             <h1>Shingon Buddhism</h1>
             <p>Learn more about one of Japan´s biggest monastic traditions...</p>
-            <img src="/projects/exploreJapan/img/Kongokai_81son_mandala_slider_img_web.jpg" alt="buddhist mandala, photography provieded by Wikipedia Commons: https://commons.wikimedia.org/wiki/File:Kongokai_81son_mandala.jpg"/>
+            <img src="/img/Kongokai_81son_mandala_slider_img_web.jpg" alt="buddhist mandala, photography provieded by Wikipedia Commons: https://commons.wikimedia.org/wiki/File:Kongokai_81son_mandala.jpg"/>
             </a>
         </li>
         <li>
-            <a href="/projects/exploreJapan/locations_landscapes.php#shikoku">
+            <a href="/locations_landscapes.php#shikoku">
             <h1>Shikoku Islands</h1>
             <p>Discover a both holy and scenic landscape on the Shikoku islands through pilgrimage...</p>
-            <img src="/projects/exploreJapan/img/shikoku_slider_img_web.jpg" alt="birthplace of Kukai, photograph of author"/>
+            <img src="/img/shikoku_slider_img_web.jpg" alt="birthplace of Kukai, photograph of author"/>
             </a>
         </li>
         <li>
             <a href="#">
             <h1>Tokyo Nightlife</h1>
             <p>Strolling through Shibuya and Shinjuku at night...</p>
-            <img src="/projects/exploreJapan/img/tokyo_slider_img_web.jpg" alt="tokyo night scene, photograph of author"/>
+            <img src="/img/tokyo_slider_img_web.jpg" alt="tokyo night scene, photograph of author"/>
             </a>
         </li>
     </ul>
@@ -97,9 +97,9 @@
                         </li>
                         <li>Landscapes
                             <ul>
-                                <li>S<a href="/projects/exploreJapan/locations_landscapes.php#shikoku">hikoku</a></li>
-                                <li><a href="/projects/exploreJapan/locations_landscapes.php#miyajima">Miyajima</a></li>
-                                <li><a href="/projects/exploreJapan/locations_landscapes.php#amanohashidate">Amanohashidate</a></li>
+                                <li>S<a href="/locations_landscapes.php#shikoku">hikoku</a></li>
+                                <li><a href="/locations_landscapes.php#miyajima">Miyajima</a></li>
+                                <li><a href="/locations_landscapes.php#amanohashidate">Amanohashidate</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -131,8 +131,8 @@
         }
     });
 </script>
-<script type="text/javascript" src="/projects/exploreJapan/js/functions.js"></script>
-<script type="text/javascript" src="/projects/exploreJapan/js/content_slider.js"></script>
+<script type="text/javascript" src="/js/functions.js"></script>
+<script type="text/javascript" src="/js/content_slider.js"></script>
 <?php include("includes/footer.php"); ?>
 
 </body>

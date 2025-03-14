@@ -49,9 +49,9 @@
                         depending on walking speed. The complete distance of the standard walking course is approximately 1200 kilometres.
                     </p>
 
-                    <img src="/projects/exploreJapan/img/shikoku_henrosama.JPG" alt="picture of a pilgrim"/>
+                    <img src="/img/shikoku_henrosama.JPG" alt="picture of a pilgrim"/>
                     <small>Photo of the author</small>
-                    <img src="/projects/exploreJapan/img/shikoku_kukaitemple.JPG" alt="the birthplace temple of Kukai"/>
+                    <img src="/img/shikoku_kukaitemple.JPG" alt="the birthplace temple of Kukai"/>
                     <small>Photo of the author, showing the temple on the birthplace of the monk Kukai</small>
                 </section>
                 <section id="miyajima">
@@ -65,7 +65,7 @@
                         is one of the most representative images of Japan´s scenic beauty.
                         In 1996 it was declared "World Heritage" by the UNESCO.
                         <br/> But there are several other (Shintoist) shrines and also Buddhist temples on the island.</p>
-                    <img src="/projects/exploreJapan/img/miyajima.jpg" alt="gate of the Itsukushima-Shrine"/>
+                    <img src="/img/miyajima.jpg" alt="gate of the Itsukushima-Shrine"/>
                     <small>photo of the author, showing the gate of the Itsukushima-Shrine</small>
                 </section>
                 <section id="amanohashidate">
@@ -77,7 +77,7 @@
                         according to this mythical account. <br/>The landscape is indeed very special and actually does resemble a bridge,
                         connecting the two opposing sides of the Miyazu Bay. On the other side a Buddhist temple is located,
                         as part of one of the many pilgrimage routes in Japan.</p>
-                    <img src="/projects/exploreJapan/img/1024px-Amanohashidate_view_from_Kasamatsu_Park01s3s4410.jpg" alt="photo of Amanohashidate"/>
+                    <img src="/img/1024px-Amanohashidate_view_from_Kasamatsu_Park01s3s4410.jpg" alt="photo of Amanohashidate"/>
                     <small>Photo provided by Wikipedia Commons: <a href="https://en.wikipedia.org/wiki/File:Amanohashidate_view_from_Kasamatsu_Park01s3s4410.jpg">https://en.wikipedia.org/wiki/File:Amanohashidate_view_from_Kasamatsu_Park01s3s4410.jpg</a></small>
                 </section>
             </div>
@@ -96,7 +96,7 @@
 
         </div>
     </div>
-    <script type="text/javascript" src="/projects/exploreJapan/js/internal_navigation.js"></script>
+    <script type="text/javascript" src="/js/internal_navigation.js"></script>
     <?php include("includes/footer.php"); ?>
 </body>
 
